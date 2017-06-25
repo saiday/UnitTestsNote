@@ -1,5 +1,14 @@
 # Unit Tests Notes
 
+## Terms
+- SUT  
+System(Software) Under Test, SUT stands for tested function or method.
+- DOC  
+Depended-on Component, as known as dependency.
+
+## Test Doubles
+- [Test Doubles - Fakes, Mocks and Stubs.](https://dev.to/milipski/test-doubles---fakes-mocks-and-stubs)
+
 ## Best Practice
 ### Test Methods Naming Convention
 *testMethodName_GivenConditions*
@@ -39,9 +48,6 @@ No manual inspection required to check whether the test has passed or failed.
 
 Should cover every use case scenario and NOT just aim for 100% coverage.
 Should try to aim for Test Driven Development (TDD) so that code does not need re-factoring later.
-
-## Mocks
-- [Test Doubles - Fakes, Mocks and Stubs.](https://dev.to/milipski/test-doubles---fakes-mocks-and-stubs)
 
 ## Trap
 - [The tragedy of 100% code coverage](https://dev.to/danlebrero/the-tragedy-of-100-code-coverage)
